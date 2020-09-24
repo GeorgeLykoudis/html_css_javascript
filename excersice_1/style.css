@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+	
+}
+
+.sections {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color : red;
+	margin-top: 30px;
+}
+
+.options {
+	float: left;
+	width: 25%;
+  	background-color: gray;
+    margin-left: 4em;
+    margin-top: 3em;
+}
+
+.food {
+	text-align: right;
+	border: 3px solid black;
+	color: black;
+}
+
+#chicken {
+	background-color: #ffb3b3;
+}
+
+#beef {
+	background-color: #ff3333;
+}
+
+#sushi {
+	background-color: #ffe680;
+}
+
