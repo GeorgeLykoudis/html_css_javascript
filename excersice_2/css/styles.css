@@ -1,6 +1,44 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box; 
+	color: #000;
 }
-body{
+body {
 	background-color: #ffffb3;
+	font-family: 'Montserrat', sans-serif;
+}
+#header-nav {
+	background-color: #777;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand {
+	height: 0px;
+	padding: 0px 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 1.5em;
+}
+#collapse-nav {
+	width: 100%;
+	border: 0;
+}
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-list a {
+	text-align: center;
+	width: 100%;
+}
+#nav-list a:hover {
+	background-color: #ccc;
+}
+#nav-list a:focus {
+	text-decoration: underline;
 }
