@@ -23,6 +23,7 @@ body {
     margin-bottom: 0px;
     color: #000;
     font-size: 1.5em;
+    font-weight: bold;
 }
 #collapse-nav {
 	width: 100%;
@@ -41,4 +42,43 @@ body {
 }
 #nav-list a:focus {
 	text-decoration: underline;
+}
+#main-title h2{
+	font-size: 1.5em;
+  	font-weight: bold;
+    text-align: center;
+}
+#main-content {
+	margin-top: 50px;
+}
+.item {
+	background-color: #ccc;
+	padding : 0px;
+	margin-bottom: 15px;
+}
+.item-title {
+	text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.text {
+    padding: 10px 25px;
+}
+.text span {
+	font-size: 0.8em;
+}
+#item-chicken {
+    background-color: #ffb3b3;
+}
+#item-beef {
+	background-color: #990000;
+}
+#item-sushi {
+	background-color: #ffe680;	
+}
+#item span {
+	font-size: 1.1em;
+}
+#beef {
+    color: #fff;
 }
