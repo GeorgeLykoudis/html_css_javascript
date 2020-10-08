@@ -12,37 +12,20 @@ body {
 	border-radius: 0;
 }
 .navbar-brand {
-	height: 0px;
-	padding: 0px 15px;
+	height: 70px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
 .navbar-brand h1 {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    font-size: 2.5em;
     color: #000;
-    font-size: 1.5em;
+    margin-top: -4px;
     font-weight: bold;
 }
-#collapse-nav {
-	width: 100%;
-	border: 0;
-}
-#nav-list {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-#nav-list a {
-	text-align: center;
-	width: 100%;
-}
-#nav-list a:hover {
-	background-color: #ccc;
-}
-#nav-list a:focus {
-	text-decoration: underline;
-}
+
+/*
+
 #main-title h2{
 	font-size: 1.5em;
   	font-weight: bold;
@@ -81,4 +64,43 @@ body {
 }
 #beef {
     color: #fff;
+}*/
+
+@media (min-width: 767px) {
+
+}
+
+@media (max-width: 768px) {
+	.navbar-brand h1 {
+	    font-size: 2em;
+	    margin-top: 7px;
+	}
+	.navbar-header .collapsed {
+		margin-top: 22px;
+	    margin-right: 30px;
+	}
+	#collapsable-nav {
+		border: 3px solid black;
+	}
+	#nav-list {
+		margin-top: 3px;
+    	margin-bottom: 3px;
+	}
+	#nav-list a {
+		text-align: center;
+		width: 100%;
+	}
+	#nav-list a:hover {
+		background-color: #ccc;
+		width: 98%;
+		margin-left: 1%;
+	}
+	#nav-list a:focus {
+		text-decoration: underline;
+	}
+	#nav-list hr {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 98%;
+	}
 }
