@@ -27,11 +27,11 @@ body {
 	margin-top: 20px;
 }
 #main-title h2 {
-	font-size: 1.5em;
-  	font-weight: bold;
+	font-size: 1.8em;
+    font-weight: bold;
     text-align: center;
-	margin-top: 0px;
-	margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 .item {
 	background-color: #ccc;
@@ -39,9 +39,7 @@ body {
 	margin-bottom: 30px;
 }
 .item-title {
-	text-align: center;
-    font-weight: bold;
-    font-size: 1.2em;
+    */font-size: 1.2em;
     border: 1.5px solid black;
     margin-right: -1px;
     margin-left: -1px;
@@ -52,23 +50,24 @@ body {
 .text span {
 	font-size: 0.9em;
 }
-#item-chicken {
+.item-title h3 {
+	margin: 0px;
+}
+.chicken {
     background-color: #ffb3b3;
 }
-#item-beef {
+.beef {
 	background-color: #990000;
-}
-#item-sushi {
-	background-color: #ffe680;	
-}
-#beef {
     color: #fff;
 }
+.sushi {
+	background-color: #ffe680;	
+}
+
 
 @media (min-width: 768px && max-width: 992px) {
 	.item {
-		width: 80%;
-		margin: 15px auto;
+		/*margin: 15px;*/
 	}
 }
 
@@ -81,7 +80,7 @@ body {
 	}
 	.navbar-default .navbar-toggle {
 	    margin-top: 12px;
-	    margin-right: 30px;
+	    margin-right: 25px;
 	    padding: 15px;
 	}
 	#collapsable-nav {
@@ -115,9 +114,6 @@ body {
 		border-color: #b3b3ff;
 	}
 	.item {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 15px;
+		margin-left: 45px;
 	}
 }
