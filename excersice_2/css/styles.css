@@ -65,11 +65,12 @@ body {
 }
 
 
-@media (min-width: 768px && max-width: 992px) {
+/*@media (min-width: 768px && max-width: 992px) {
 	.item {
-		/*margin: 15px;*/
+		width: 47%;
+    	margin: 20px 10px;
 	}
-}
+}*/
 
 @media (max-width: 767px) {
 	.navbar-brand {
@@ -104,16 +105,13 @@ body {
 		text-decoration: underline;
 	}
 	#nav-list hr {
-		margin-top: 5px;
-		margin-bottom: 5px;
+		margin: 5px 0px;
 		width: 98%;
 		border-color: black;
 	}
 	#main-content hr {
-		width: 50%;
+		width: 70%;
+		margin-bottom: 25px;
 		border-color: #b3b3ff;
-	}
-	.item {
-		margin-left: 45px;
 	}
 }
