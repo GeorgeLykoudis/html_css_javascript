@@ -14,3 +14,8 @@ Link with the description of module 3:
 https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md.
 
 Link to my implementation: https://georgelykoudis.github.io/html_css_javascript/excersice_3/
+
+Link with the description of module 4:
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md.
+
+Link to my implementation: https://georgelykoudis.github.io/html_css_javascript/excersice_4/
